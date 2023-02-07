@@ -1,0 +1,34 @@
+    1  gsettings
+    2  gsettings set
+    3  gsettings get org.gnome.desktop.peripherals.touchpad
+    4  gsettings get org.gnome.desktop.peripherals.touchpad natural-scroll
+    5  gsettings set org.gnome.desktop.peripherals.touchpad natural-scroll false
+    6  gsettings get org.gnome.desktop.peripherals.touchpad natural-scroll
+    7  gsettings set org.gnome.desktop.peripherals.touchpad natural-scroll true
+    8  gsettings get org.gnome.desktop.peripherals.touchpad natural-scroll
+    9  gsettings set org.gnome.desktop.peripherals.touchpad natural-scroll false
+   10  sudo reboot
+   11  php -v
+   12  php -version
+   13  pip
+   14  sudo apt update
+   15  sudo apt install lsb-release
+   16  curl https://packages.sury.org/php/apt.gpg | sudo tee /usr/share/keyrings/suryphp-archive-keyring.gpg >/dev/null
+   17  echo "deb [signed-by=/usr/share/keyrings/suryphp-archive-keyring.gpg] https://packages.sury.org/php/ $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/sury-php.list
+   18  sudo apt update
+   19  sudo apt install php8.1-cli
+   20  sudo apt install php8.2-cli
+   21  echo "<?php echo 'Hello World';" > test.php
+   22  php8.2 test.php
+   23  php -v
+   24  php test.php
+   25  git clone https://github.com/paquettm/raspberry-pi-OS-setup.git
+   26  dc raspberry-pi-OS-setup/
+   27  dir
+   28  cd raspberry-pi-OS-setup/
+   29  ls
+   30  mkdir php
+   31  cd php
+   32  nano README.md
+   33  history
+   34  history > commands.txt
