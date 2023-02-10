@@ -1,5 +1,5 @@
 #Instaling 'MySQL' (MariaDB)
-
+yadmin
 Install the RDBMS software with
 ```
 sudo apt install mariadb-server
@@ -15,8 +15,13 @@ sudo mysql -u root -p
 you should get a prompt in the database. type `exit` to leave.
 
 Install `phpMyAdmin` to allow you to easily configure the databases.
+add the following line to the /etc/apt/sources.list
 ```
-sudo apt install phpmyadmin
+deb http://deb.debian.org/debian bullseye-backports main
+```
+```
+apt-get update 
+apt-get install -t bullseye-backports phpmyadmin	*** WORK IN PROGRESS CHANGING OS PI_TOP OS SEEMS HARD TO CONFIGURE
 ```
 follow the prompts.
 
