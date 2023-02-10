@@ -24,3 +24,9 @@ php test.php
 ```
 You should see "Hello World" printed at the command line.
 You can delete that test.php file as follows: `rm test.php`
+
+Note:
+I had to run the following to get php working with apache2:
+```
+sudo apt install php
+```
