@@ -1,4 +1,4 @@
-set up the github CLI client with
+First set up the github CLI client with
 ```
 type -p curl >/dev/null || sudo apt install curl -y
 curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg \
@@ -14,3 +14,5 @@ Specifically to log in to your account for this computer run
 gh auth login
 ```
 and follow the on-screen indications.
+
+git should now be ready to use and your accuont should be logged in correctly.
