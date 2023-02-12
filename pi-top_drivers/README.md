@@ -67,6 +67,14 @@ For an example output
 
 Copy the 2 first lines to the configuration file and replace the (Scheme function) mention by the command to run.
 
+For example, to bind the scripts specified above to CTRL+ALT+o and CTRL+ALT+i, the folowing was added to .xibindkeysrc:
+```
+"~/touchoff"
+    m:0xc + c:32
+"~/touchon"
+    m:0xc + c:31
+```
+
 to test the shortcuts run 
 
 ```
