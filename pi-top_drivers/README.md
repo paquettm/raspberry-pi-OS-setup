@@ -91,3 +91,8 @@ and add the command xbindkeys before the last command that invokes the window sy
 
 all details found [here](https://wiki.archlinux.org/title/Xbindkeys).
 
+## Screen
+On Pi-Top \[3\] the nominal screen resolution is 
+1920 x 1080
+60Hz
+hdmi_mode 16
