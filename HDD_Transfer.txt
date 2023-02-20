@@ -1,0 +1,18 @@
+# Transfer Linux to smaller HDD
+
+1. Build partition identical to the smaller and max out the larger:
+* 1 small around 537MB
+* 1 extended for the rest
+* ext4 in the extended
+
+2. Image smaller partition and restore to pther small partition
+
+3. rsync -avx from bigger ext4 to smaller ext4
+
+4. sudo mkdir /mnt/newdrive
+
+5. sudo fdisk -l and see which is the proper drive -> sdx
+
+5. sudo mount /dev/sdx /mnt/newdrive
+
+6. sudo grub-install --bout-directory=/mnt/newdrive/boot /dev/sdx
