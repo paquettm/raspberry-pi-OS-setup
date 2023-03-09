@@ -49,3 +49,4 @@ sudo ln -s ../mods-available/php8.2.load php8.2.load
 sudo apache2ctl -t
 sudo systemctl start apache2
 ```
+Running the last block only 2023-03-09 did not instgall 8.2, but only 8.1.
