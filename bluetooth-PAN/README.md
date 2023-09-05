@@ -111,7 +111,10 @@ To pair the PC and the RPi, click or right-click the Bluetooth icon and click **
 Click or right-click the Bluetooth icon and click **Join a Personal Area Network**.
 From the device list presented, right-click your RPi device, click **Connect using** and then **Access point**.
 
-(Section to be validated)
+If connecting to the access point fails, go back to the device list. If the device list has been closed, click or right-click the Bluetooth icon and click **Join a Personal Area Network**.
+Right click on the raspberry pi in the device list.
+Click **Properties**, select the **Services** tab, uncheck **Audio Sink**, **Audio Source**, **Headset**, **Remote Control**, and **Remotely Controllable Device**, finally click **Ok**.
+Again, right-click on the raspberry pi device, hover over **Connect using**, and then click **Access point**.
 
 ## Conclusion
 
