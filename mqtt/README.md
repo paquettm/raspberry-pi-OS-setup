@@ -46,6 +46,8 @@ Feb 11 13:57:48 raspberrypi systemd[1]: Starting Mosquitto MQTT Broker...
 Feb 11 13:57:48 raspberrypi systemd[1]: Started Mosquitto MQTT Broker.
 ```
 
+To exit this view, type the characters `:q`.
+
 Now configure Mosquitto to serve remote hosts:
 
 ```
