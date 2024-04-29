@@ -1,5 +1,12 @@
 # Setting the hardware clocks using Linux CLI
 
+Operate as root:
+
+```
+sudo su
+```
+enter your root password.
+
 Read the hardware clock.
 
 ```
