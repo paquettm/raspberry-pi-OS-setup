@@ -25,3 +25,20 @@ return to a shell
 
 * Run `pip install pipenv`
 
+## But what if I don't even have pip?
+Update your libraries by running
+```
+sudo apt update
+```
+Then install the pip3 program with
+```
+sudo apt install python3-pip
+```
+Verify the installation
+```
+which pip3
+```
+which should return the install pah such as
+```
+/usr/bin/pip3
+```
