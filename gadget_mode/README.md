@@ -44,17 +44,28 @@ After the Raspberry Pi boots up (wait until the green light stops flashing), it 
 Often, in Windows, we don't see the device appear because we need a new driver installed.
 To update the device driver, you need administrative privileges.
 Proceed as follows
+
 1. Search for and open the `Device Manager`
+
 2. Disconnect the device and look for the "ports" section and remember the ports listed, if any.
+
 3. Reconnect the device and look for the new port. Right click to see the properties.
+
 4. Right click it, select properties, then the Details tab. In the Property input, select "Hardware Ids". The Value should read something like `USB\VID_0525&PID_A4A2`
+
 5. Go get the correct driver:
+
     a. Open a new internet browser window and go to "https://www.catalog.update.microsoft.com".
+
     b. In the search box enter your Hardware Ids value as above without the USB\ and &, for example: "VID_0525 PID_A4A2".
+
     c. On the line for your OS version, click download.
+
     d. In the new window, click on the hyperlink to download the correct cab file.
+
     e. Open the cab file and extract the files to a known location.
-7. Go back to Device Manager, select the Driver tab for the previously found device and click "Update driver". Select the option to provide your driver and navigate to the folder containing your new driver files. You should be provided with a USB Ethernet RNDIS Gadget or something simimlar choice. Select it and be happy.
+
+6. Go back to Device Manager, select the Driver tab for the previously found device and click "Update driver". Select the option to provide your driver and navigate to the folder containing your new driver files. You should be provided with a USB Ethernet RNDIS Gadget or something simimlar choice. Select it and be happy.
 
 ## Connecting to the Raspberry Pi over SSH
 
