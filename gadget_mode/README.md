@@ -54,7 +54,7 @@ Proceed as follows
     c. On the line for your OS version, click download.
     d. In the new window, click on the hyperlink to download the correct cab file.
     e. Open the cab file and extract the files to a known location.
-6. Go back to Device Manager, select the Driver tab for the previously found device and click "Update driver". Select the option to provide your driver and navigate to the folder containing your new driver files. You should be provided with a USB Ethernet RNDIS Gadget or something simimlar choice. Select it and be happy.
+7. Go back to Device Manager, select the Driver tab for the previously found device and click "Update driver". Select the option to provide your driver and navigate to the folder containing your new driver files. You should be provided with a USB Ethernet RNDIS Gadget or something simimlar choice. Select it and be happy.
 
 ## Connecting to the Raspberry Pi over SSH
 
