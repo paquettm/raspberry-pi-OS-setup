@@ -128,3 +128,20 @@ network={
 	auth_alg=OPEN
 }
 ```
+
+## Using the Connection client
+
+Raspberry Pi Desktop now supports connections to Enterprise networks using its GUI.
+To know which options to select is the challenge.
+
+You may find information about your enterprise connection on Windows:
+1. Click on the network connection button at the bottom left.
+2. Click on the Wifi confguration `>` at the top left of the popup.
+3. Click on the `i` information icon at the top right of your current connection. A dialog with information will open.
+4. Note the `Security type` entry and use this to populate the `Wi-Fi Security` entry on your Linux computer.
+5. Note the `Type of sign-in info` entry and use this to populate the `Authentication` entry on Linux.
+6. If you were initially able to connect without installing a certificate (you would know), click the checkbox left of `No CA certificate is required`
+7. Enter your `Username` and `Password` as you did on your Windows computer.
+8. Click `Connect`
+
+The Raspberry Pi SBC or Linux computer should connect.
