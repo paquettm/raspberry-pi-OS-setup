@@ -70,7 +70,7 @@ Poll Interval: ...
 
 Your NTP server name will be the one on the `Source:` line.
 
-# Unverified
+# Hail Mary
 
 If you just want a command you can run from the command line once you have a network connection you can use this to set you pi clock.
 
