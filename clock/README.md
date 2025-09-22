@@ -70,6 +70,14 @@ Poll Interval: ...
 
 Your NTP server name will be the one on the `Source:` line.
 
+# Unverified
+
+If you just want a command you can run from the command line once you have a network connection you can use this to set you pi clock.
+
+```
+sudo date -s "$(wget -qSO- --max-redirect=0 google.com 2>&1 | grep Date: | cut -d' ' -f5-8)Z"
+```
+
 # Setting the hardware clocks using Linux CLI
 
 ## Under Ubuntu
