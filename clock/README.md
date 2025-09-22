@@ -53,7 +53,7 @@ To find out which server to use, start by opening a Command Prompt as follows:
 1. Press the Windows button or click the Windows icon (AKA Start menu).
 2. Type "cmd".
 3. Press enter or click the "Command Prompt" result.
-4. At the command prompt enter `timedatectl show-timesync` and press the `ENTER` key.
+4. At the command prompt enter `w32tm /query /status` and press the `ENTER` key.
 
 You should see something similar to the following, with data on each line, replacing the ... in the output below:
 ```
