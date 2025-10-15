@@ -42,3 +42,34 @@ which should return the install pah such as
 ```
 /usr/bin/pip3
 ```
+
+## Thonny
+
+Thonny is a great little editor for Python that supports Python, MicroPython, as well as virtual environments.
+Thonny has its own package manager that can `pip install` packages in your environment(s).
+
+If you had previously installed Thonny, you may uninstall it via
+```bash
+sudo apt remove thonny
+```
+or
+```bash
+pip remove thonny
+```
+
+To install the latest version, do not use apt or pip. Instead, get the installer from the source as follows, at the bash terminal:
+```bash
+bash <(wget -O - https://thonny.org/installer-for-linux)
+```
+
+Thonny should be installed and accessible from the GUI.
+To make it runnable from the command prompt, you may also add it to the path as follows:
+```bash
+echo 'export PATH="$PATH:$HOME/.local/bin"' >> ~/.bashrc
+source ~/.bashrc
+```
+
+Confirm the functionality by running thonny from the command line as follows:
+```bash
+thonny
+```
