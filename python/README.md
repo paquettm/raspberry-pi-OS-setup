@@ -65,7 +65,7 @@ bash <(wget -O - https://thonny.org/installer-for-linux)
 Thonny should be installed and accessible from the GUI.
 To make it runnable from the command prompt, you may also add it to the path as follows:
 ```bash
-echo 'export PATH="$PATH:$HOME/.local/bin"' >> ~/.bashrc
+echo 'export PATH="$PATH:$HOME/apps/thonny/bin"' >> ~/.bashrc
 source ~/.bashrc
 ```
 
