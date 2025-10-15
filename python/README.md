@@ -1,4 +1,4 @@
-#Python installation
+# Python installation
 
 Python should be installed natively
 
@@ -6,7 +6,7 @@ Python should be installed natively
 
 * Run `sudo apt install python3` to install the latest available version of Python 3.
 
-##pyenv installation
+## pyenv installation
 
 * Run `curl https://pyenv.run | bash`
 
@@ -21,7 +21,7 @@ eval "$(pyenv init -)"
 exit all shells
 return to a shell
 
-##pipenv installation
+## pipenv installation
 
 * Run `pip install pipenv`
 
