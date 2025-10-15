@@ -4,7 +4,7 @@ Python should be installed natively
 
 ## Upgrade python to latest
 
-* Run `sudo apt install python3.9` to install Python 3.9.
+* Run `sudo apt install python3` to install the latest available version of Python 3.
 
 ##pyenv installation
 
