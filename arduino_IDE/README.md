@@ -1,4 +1,4 @@
-#Installing Arduino IDE
+# Installing Arduino IDE
 
 Go to the raspberry start menu, preference, Add/Remove Software
 
